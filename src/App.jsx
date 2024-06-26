@@ -31,6 +31,7 @@ function App() {
         placeholder="Search for a word"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        type="text"
       />
       <button onClick={() => searchHandler(search)}>Search</button>
       <h4>Defination :</h4>
