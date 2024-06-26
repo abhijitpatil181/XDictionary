@@ -34,7 +34,7 @@ function App() {
         type="text"
       />
       <button onClick={() => searchHandler(search)}>Search</button>
-      <h4>Defination :</h4>
+      <h4>Definistion:</h4>
       {defination && <p>{defination}</p>}
     </>
   );
