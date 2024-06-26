@@ -13,7 +13,7 @@ function App() {
   const [defination, setDefination] = useState("");
 
   const searchHandler = (valueToSearch) => {
-    if (valueToSearch) {
+    if (valueToSearch || valueToSearch === "") {
       const result = dictionary.find(
         (entry) => entry.word.toLowerCase() === valueToSearch.toLowerCase()
       )?.meaning;
